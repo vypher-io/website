@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Terminal } from 'lucide-react';
-import vypherIcon from '../assets/vypher-icon.png';
+import vypherIcon from '../assets/vypher-icon.jpg';
 
 export default function Hero() {
     return (

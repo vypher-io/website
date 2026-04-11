@@ -1,6 +1,6 @@
 import { Github } from 'lucide-react';
 import { motion } from 'framer-motion';
-import vypherIcon from '../assets/vypher-icon.png';
+import vypherIcon from '../assets/vypher-icon.jpg';
 
 export default function Navbar() {
     return (
