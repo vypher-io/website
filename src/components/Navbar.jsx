@@ -13,6 +13,9 @@ export default function Navbar() {
                 VYPHER
             </div>
             <div className="flex gap-6 items-center">
+                <a href="https://docs.vypher.io" className="text-gray-400 hover:text-white transition-colors text-sm font-medium">
+                    Docs
+                </a>
                 <a href="https://github.com/vypher-io/cli" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <Github className="w-6 h-6" />
                 </a>
