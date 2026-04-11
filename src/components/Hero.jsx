@@ -1,25 +1,23 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, ShieldCheck, Terminal } from 'lucide-react';
+import { ArrowRight, Terminal } from 'lucide-react';
+import vypherIcon from '../assets/vypher-icon.png';
 
 export default function Hero() {
     return (
         <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden">
-            {/* Background Elements */}
-            <div className="absolute inset-0 z-0">
-                <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-primary/20 rounded-full blur-[128px]" />
-                <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-brand-secondary/20 rounded-full blur-[128px]" />
-            </div>
 
             <div className="z-10 max-w-4xl mx-auto space-y-8">
                 <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="flex justify-center mb-4"
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 1, ease: 'easeOut' }}
+                    className="flex justify-center"
                 >
-                    <span className="px-4 py-1.5 rounded-full border border-brand-primary/30 bg-brand-primary/10 text-brand-primary text-sm font-medium flex items-center gap-2">
-                        <ShieldCheck className="w-4 h-4" /> Secure by Nature
-                    </span>
+                    <img
+                        src={vypherIcon}
+                        alt="Vypher"
+                        className="w-48 h-48 md:w-64 md:h-64 object-contain mix-blend-screen"
+                    />
                 </motion.div>
 
                 <motion.h1
