@@ -57,7 +57,7 @@ export default function DetectionPatterns() {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-4">Detection Patterns</h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        11 built-in patterns across finance, crypto, healthcare, and general PII — each filterable by tag with <code className="text-brand-primary bg-white/5 px-1.5 py-0.5 rounded text-sm">--rules</code>
+                        11 built-in patterns across finance, crypto, healthcare, and general PII, each filterable by tag with <code className="text-brand-primary bg-white/5 px-1.5 py-0.5 rounded text-sm">--rules</code>
                     </p>
                 </div>
 

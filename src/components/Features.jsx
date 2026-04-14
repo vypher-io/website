@@ -25,7 +25,7 @@ const features = [
     {
         icon: <FileJson className="w-8 h-8 text-purple-400" />,
         title: "Multi-Format Output",
-        description: "Console, JSON, and SARIF output — integrate with GitHub Security, VS Code, or your CI/CD pipeline."
+        description: "Console, JSON, and SARIF output. Integrate with GitHub Security, VS Code, or your CI/CD pipeline."
     },
     {
         icon: <Filter className="w-8 h-8 text-orange-400" />,
