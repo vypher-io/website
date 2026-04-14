@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Terminal } from 'lucide-react';
+import { ArrowRight, BookOpen, Terminal } from 'lucide-react';
 import vypherIcon from '../assets/vypher-icon.jpg';
 
 export default function Hero() {
@@ -54,6 +54,15 @@ export default function Hero() {
                     >
                         <Terminal className="w-5 h-5" />
                         Install CLI
+                    </a>
+                    <a
+                        href="https://docs.vypher.io"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="px-8 py-4 border border-brand-primary/40 hover:border-brand-primary text-brand-primary hover:text-brand-primary rounded-lg transition-all flex items-center justify-center gap-2"
+                    >
+                        <BookOpen className="w-5 h-5" />
+                        Read the Docs
                     </a>
                     <a
                         href="https://github.com/vypher-io/cli"
