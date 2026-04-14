@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ScanSearch, Lock, Zap, FileJson, ShieldCheck, Filter, GitCommitHorizontal } from 'lucide-react';
+import { ScanSearch, Lock, Zap, FileJson, ShieldCheck, Filter, GitCommitHorizontal, Container, Globe } from 'lucide-react';
 
 const features = [
     {
@@ -36,6 +36,16 @@ const features = [
         icon: <GitCommitHorizontal className="w-8 h-8 text-pink-400" />,
         title: "Shift Left",
         description: "Pre-commit hooks catch sensitive data before it ever enters your repo. Stop leaks at the source, not in production."
+    },
+    {
+        icon: <Container className="w-8 h-8 text-sky-400" />,
+        title: "Run Anywhere",
+        description: "Official Docker image available. Scan any directory with a single command, no installation required."
+    },
+    {
+        icon: <Globe className="w-8 h-8 text-teal-400" />,
+        title: "Cross-Platform",
+        description: "Native binaries for macOS, Linux, and Windows. Install via Homebrew, Scoop, Docker, or directly from releases."
     }
 ];
 
