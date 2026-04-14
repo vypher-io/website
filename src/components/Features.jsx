@@ -25,7 +25,7 @@ const features = [
     {
         icon: <FileJson className="w-8 h-8 text-purple-400" />,
         title: "CI/CD Ready",
-        description: "SARIF output uploads directly to GitHub Code Scanning for inline PR annotations. Use --fail-on-match to block merges on any finding."
+        description: "Console, JSON, and SARIF output formats built in. SARIF is compatible with GitHub Code Scanning for inline PR annotations. Use --fail-on-match to block merges on any finding."
     },
     {
         icon: <Filter className="w-8 h-8 text-orange-400" />,
