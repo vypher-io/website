@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ScanSearch, Lock, Zap, FileJson, ShieldCheck, Filter } from 'lucide-react';
+import { ScanSearch, Lock, Zap, FileJson, ShieldCheck, Filter, GitCommitHorizontal } from 'lucide-react';
 
 const features = [
     {
@@ -24,13 +24,18 @@ const features = [
     },
     {
         icon: <FileJson className="w-8 h-8 text-purple-400" />,
-        title: "Multi-Format Output",
-        description: "Console, JSON, and SARIF output. Integrate with GitHub Security, VS Code, or your CI/CD pipeline."
+        title: "CI/CD Ready",
+        description: "SARIF output uploads directly to GitHub Code Scanning for inline PR annotations. Use --fail-on-match to block merges on any finding."
     },
     {
         icon: <Filter className="w-8 h-8 text-orange-400" />,
         title: "Flexible Filtering",
         description: "Exclude files with glob patterns and leverage sensible defaults to focus scanning on what matters."
+    },
+    {
+        icon: <GitCommitHorizontal className="w-8 h-8 text-pink-400" />,
+        title: "Shift Left",
+        description: "Pre-commit hooks catch sensitive data before it ever enters your repo. Stop leaks at the source, not in production."
     }
 ];
 
