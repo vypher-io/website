@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export default function Installation() {
     const [copied, setCopied] = useState(false);
-    const command = "brew install vypher-io/tap/cli";
+    const command = "brew install vypher-io/tap/vypher";
 
     const handleCopy = () => {
         navigator.clipboard.writeText(command);
