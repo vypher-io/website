@@ -1,6 +1,7 @@
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import CompatibleWith from './components/CompatibleWith';
 import Features from './components/Features';
 import DetectionPatterns from './components/DetectionPatterns';
 import Installation from './components/Installation';
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <CompatibleWith />
         <Features />
         <DetectionPatterns />
         <Installation />
