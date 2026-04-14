@@ -38,7 +38,7 @@ export default function Installation() {
                 </motion.div>
 
                 <p className="mt-4 text-gray-500 text-sm">
-                    Requires Go 1.20+. Check <a href="https://docs.vypher.io/installation.html" className="text-brand-secondary hover:underline">documentation</a> for more installation instructions.
+                    Check <a href="https://docs.vypher.io/installation.html" className="text-brand-secondary hover:underline">documentation</a> for more installation instructions.
                 </p>
             </div>
         </section>
