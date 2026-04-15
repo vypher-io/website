@@ -42,7 +42,7 @@ export default function CompatibleWith() {
                     transition={{ duration: 0.5 }}
                     className="text-sm font-semibold uppercase tracking-widest text-gray-500 mb-8"
                 >
-                    Works with your tollset
+                    Works with your toolset
                 </motion.p>
 
                 <motion.div
